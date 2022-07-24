@@ -27,20 +27,6 @@ public class ClienteController {
         return "ok";
     }
 
-    @PostMapping
-    public ResponseEntity save(@RequestBody ClienteDto clienteDto){
-        Cliente cliente = clienteDto.toModel();
-        clienteService.save(cliente);
-
-        URI headerLocation = ServletUriComponentsBuilder
-                .fromCurrentRequest()
-                .query("cpf={cpf}")
-                .buildAndExpand(cliente.getCpf())
-                .toUri();
-
-        return ResponseEntity.created(headerLocation).build();
-    }
-
     @GetMapping(params = "cpf")
     public ResponseEntity dadosCliente(@RequestParam String cpf){
 
@@ -53,5 +39,17 @@ public class ClienteController {
         return ResponseEntity.ok(cliente);
     }
 
+    @PostMapping
+    public ResponseEntity save(@RequestBody ClienteDto clienteDto){
+        Cliente cliente = clienteDto.toModel();
+
+        URI headerLocation = ServletUriComponentsBuilder
+                .fromCurrentRequest()
+                .query("cpf={cpf}")
+                .buildAndExpand(cliente.getCpf())
+                .toUri();
+
+        return ResponseEntity.created(headerLocation).body(clienteService.save(cliente));
+    }
 
 }

@@ -22,6 +22,7 @@ public class MsgatewayApplication {
 		return builder
 				.routes()
 					.route("cliente", c -> c.path("/cliente/**").uri("lb://msclientes"))
+					.route("cartoes", c -> c.path("/cartoes/**").uri("lb://mscartoes"))
 				.build();
 	}
 
