@@ -21,6 +21,7 @@ public class ClienteController {
 
     private final ClienteService clienteService;
 
+
     @GetMapping
     public String status(){
         log.info("Obtendo o status do cliente");

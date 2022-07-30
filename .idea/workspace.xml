@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1ad2247-ec1e-4531-ae51-e00deab00569" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/maenrico/mscartoes/MscartoesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/maenrico/mscartoes/MscartoesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/maenrico/mscartoes/application/CartoesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/maenrico/mscartoes/application/CartoesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/src/main/java/io/github/maenrico/msclientes/application/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/maenrico/msclientes/application/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/src/main/java/io/github/maenrico/msclientes/infra/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/maenrico/msclientes/infra/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msgateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgateway/src/main/java/io/github/maenrico/msgateway/MsgatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msgateway/src/main/java/io/github/maenrico/msgateway/MsgatewayApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CViJmcmgogAwtsKj3ckE2yj2aA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projetos/Projeto Microservices UD/msgateway&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;45899b0e25a9ca167a8863eff88ca9b3&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
+    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurekaserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.maenrico.eurekaserver.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsavaliadorcreditoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msavaliadorcredito" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.maenrico.msavaliadorcredito.MsavaliadorcreditoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MscartoesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mscartoes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.maenrico.mscartoes.MscartoesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsclientesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msclientes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.maenrico.msclientes.MsclientesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsgatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msgateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.maenrico.msgateway.MsgatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1ad2247-ec1e-4531-ae51-e00deab00569" name="Changes" comment="" />
+      <created>1658894083298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658894083298</updated>
+      <workItem from="1658894084653" duration="1477000" />
+      <workItem from="1659021315702" duration="2770000" />
+      <workItem from="1659100269277" duration="4085000" />
+      <workItem from="1659190261677" duration="6261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
